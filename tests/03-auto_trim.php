@@ -1,9 +1,9 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'PHPUnit/Autoload.php';
+use \PHPUnit\Framework\TestCase;
 
-class AutoTrimTest extends \PHPUnit\Framework\TestCase
+class AutoTrimTest extends TestCase
 {
     private $rules = array(
         'code'      =>  array('required'),

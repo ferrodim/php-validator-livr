@@ -1,9 +1,9 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'PHPUnit/Autoload.php';
+use \PHPUnit\Framework\TestCase;
 
-class CustomFiltersTest extends \PHPUnit\Framework\TestCase
+class CustomFiltersTest extends TestCase
 {
     public function testPositive()
     {
