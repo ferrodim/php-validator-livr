@@ -1,8 +1,9 @@
 <?php
 
 require 'vendor/autoload.php';
+require 'PHPUnit/Autoload.php';
 
-class LIVRTestSuite extends PHPUnit_Framework_TestCase
+class LIVRTestSuite extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider positiveTestsProvider

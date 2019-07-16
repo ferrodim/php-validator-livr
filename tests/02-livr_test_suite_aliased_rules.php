@@ -1,8 +1,9 @@
 <?php
 
 require 'vendor/autoload.php';
+require 'PHPUnit/Autoload.php';
 
-class AliasedRulesTest extends PHPUnit_Framework_TestCase
+class AliasedRulesTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider positiveTestsProvider
